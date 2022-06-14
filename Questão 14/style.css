@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-color: #ccc;
+}
+.grid-container{
+    background-color: #ccc;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 770px
+}
+.grid-item:nth-child(1){
+    /* background-color: rgba(107, 14, 230, 0.315); */
+    grid-row: 1 / 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+.grid-item:nth-child(2){
+    grid-row: 2 / 4;
+}
+.grid-item:nth-child(3){
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+.grid-item:nth-child(4){
+    grid-row: 2 / 3;
+}
+.grid-item:nth-child(5){
+    grid-row: 3 / 4;
+    grid-column: 2 / 4;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+li{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+a:hover{
+    padding: 4px;
+    color: rgb(245, 8, 8);
+    transition: 0.5s;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.loja{
+    font-size: 2em;
+    font-family: cursive;
+
+}
+.cars-type{
+    font-size: 29px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    margin-bottom: 30px;
+}
+.cars{
+    color: #6227c2;
+}
+.footer{
+    font-size: 20px;
+}
