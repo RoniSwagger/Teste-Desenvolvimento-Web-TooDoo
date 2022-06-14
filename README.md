@@ -5,5 +5,5 @@
 </div>
 
 <div align="center">
-    <p>as respotas também foram colocadas no PDF se for necessário conferir.</p>
+    <p>As respotas também foram colocadas no PDF se for necessário conferir.</p>
 </div>
